@@ -180,21 +180,24 @@ button{
 /* #region benefits */
 
 .benefits{
-  display: flex;
+  display: block;
   padding: 120px 0 120px;
 }
 
 .benefits-container{
-  width: calc((100% - 72px) / 4);
+ 
 }
 
 .benefits-list{
-    display: flex;
+    display: block;
     gap: 24px;
+   }
+   .benefits-list-item{
+    width: calc((100% - 72px) / 4);
    }
 
 .benefits-item-title{
-    display: flex;
+    display: block;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -212,15 +215,16 @@ button{
 
 .visually-hidden{
    position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
-  white-space: nowrap;
-}
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+   white-space: nowrap;
+   clip-path: inset(100%);
+   clip: rect(0, 0, 0, 0);
+   overflow: hidden;
+  }
 
 /* #endregion benefits */
 
@@ -243,8 +247,15 @@ button{
     background-color: #FFFFFF;
 }
      
+.our-team-list{
+  display: flex;
+  gap: 24px;
+  padding: 120px 0 120px;
+  align-items: center;
 
-.names-team{
+  }
+
+  .names-team{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;

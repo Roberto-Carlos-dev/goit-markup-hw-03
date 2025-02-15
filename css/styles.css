@@ -30,6 +30,14 @@ a {
   text-decoration: none;
 }
 
+img{
+  display: block
+}
+
+button{
+  cursor: pointer;
+}
+
 /* common */
 
 .container {
@@ -124,7 +132,8 @@ a {
 
 .hero-container{
     display: block;
-    padding: 188px 0 188px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero{
@@ -270,7 +279,7 @@ a {
 
 .page-footer{
     background-color: #2e2f42;
-}
+ }
 
 .footer-text{
     font-size: 16px;
@@ -280,6 +289,7 @@ a {
 }
 
 .footer-logo{
+    display: inline-block;
     margin-bottom: 16px;
 }
 
@@ -289,8 +299,7 @@ a {
 
 .footer-container{
     display: inline-block;
-    padding: 100px o;  
-     max-width: 264px;  
+    max-width: 264px;  
 }
 
 /* #endregion footer 

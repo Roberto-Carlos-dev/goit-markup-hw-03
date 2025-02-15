@@ -179,6 +179,11 @@ button{
 
 /* #region benefits */
 
+.benefits{
+  display: flex;
+  padding: 120px 0 120px;
+}
+
 .benefits-list{
     display: flex;
     gap: 24px;
@@ -186,18 +191,34 @@ button{
 }
 
 .benefits-item-title{
+  display: flex;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px
 }
 
 .benefits-item-text{
+  display: flex;
+  flex-basis: calc((100% - 72px) / 4);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.visually-hidden{
+   position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  white-space: nowrap;
 }
 
 /* #endregion benefits */

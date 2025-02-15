@@ -122,7 +122,9 @@ a {
 
 /* hero */
 
-.hero-container{}
+.hero-container{
+    padding: 188px 0 188px;
+}
 
 .hero{
      background-color:  #2e2f42;
@@ -137,8 +139,7 @@ a {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
+     color: #fff;
 }
 
 .hero-button{
@@ -155,6 +156,7 @@ a {
     cursor: pointer;
     border: none;
     border-radius: 4px;
+    align-items: center;
 }
       
 .hero-button:hover, .hero-button:focus{

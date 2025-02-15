@@ -122,11 +122,17 @@ a {
 
 /* hero */
 
+.hero-container{}
+
 .hero{
      background-color:  #2e2f42;
     }
 
 .hero-title{
+    display: block;
+    margin: 0 auto;
+    max-width: 496px;
+    text-align: center;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;

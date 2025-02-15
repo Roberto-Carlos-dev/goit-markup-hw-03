@@ -187,11 +187,11 @@ button{
 .benefits-list{
     display: flex;
     gap: 24px;
-    width: calc((100% - 72) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .benefits-item-title{
-  display: flex;
+    display: flex;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -201,8 +201,6 @@ button{
 }
 
 .benefits-item-text{
-  display: flex;
-  flex-basis: calc((100% - 72px) / 4);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -296,7 +294,8 @@ button{
 
 .footer{
   display: block;
-  padding: 100px 0 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .container{

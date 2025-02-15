@@ -123,6 +123,7 @@ a {
 /* hero */
 
 .hero-container{
+    display: block;
     padding: 188px 0 188px;
 }
 

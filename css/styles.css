@@ -1,119 +1,124 @@
 
 
 
-body{
-    font-family: 'Roboto', sans-serif;
-    color: #434455;
-    background-color: #fff;
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #fff;
 }
 
 /* reset */
 
-ul,ol{
-    list-style: none;
-    margin: 0;
-    padding: 0;
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-h1,h2,h3,h4,h5,h6,p{
-    margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
 /* common */
 
-.container{
-    max-width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 /* header */
 
-.page-header{
-    border-bottom: 1px solid #e7e9fc;
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
 }
 
-.header-container{
-    display: flex;
-    align-items: center;
+.header-container {
+  display: flex;
+  align-items: center;
 }
 
-.header-nav{
-    display: flex;
-    align-items: center;
+.header-nav {
+  display: flex;
+  align-items: center;
 }
 
-.nav-list{
-    display: flex;
-    align-items: center;
-    gap: 40px;
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
-.contacts-list{
-    display: flex;
-    align-items: center;
-    gap: 40;
+.header-logo {
+  padding: 24px 0;
+  margin-right: 76px;
 }
 
-.header-logo{
-    padding: 24px 0;
-    margin-right: 76px;
+.header-logo .logo-part {
+  color: #2e2f42;
 }
 
-.logo{
-   font-family: "Raleway", sans-serif;
-   font-weight: 700;
-   font-size: 18px;
-   line-height: 1.17;
-   letter-spacing: 0.03em;
-   text-transform: uppercase;
-   color: #4d5ae5;
+.footer-logo .logo-part {
+  color: #f4f4fd;
 }
 
-.header-logo .logo-part{
-    color: #2e2f42;
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
-.footer-logo .logo-part{
-    color: #f4f4fd;;
+.nav-link {
+  display: block;
+  padding: 24px 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
-.nav-link{
-    display: block;
-    padding: 24px 0;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+.contacts {
+  font-style: normal;
+  margin-left: auto;
 }
 
-.contacts{
-    margin-left: auto;
-    font-style: normal;
+.contacts-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
-.contacts-link{
-    display: block;
-    padding: 24px 0;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    font-size: 16px;
-    margin-right: 40px
+.contacts-link {
+  display: block;
+  padding: 24px 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
+
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
-.contacts-link:focus{
-    color: #404bbf;
+.contacts-link:focus {
+  color: #404bbf;
 }
-
-
 
 /* hero */
 
@@ -147,6 +152,12 @@ a{
 /* #endregion hero */
 
 /* #region benefits */
+
+.benefits-list{
+    display: flex;
+    gab: 24px;
+    width: calc((100% - 72) / 4);
+}
 
 .benefits-item-title{
     font-weight: 500;
@@ -228,12 +239,18 @@ a{
     color: #434455;
 }
 
+.portfolio-title{
+    text-transform: capitalize;
+}
+
 /* #endregion Our portfolio */
 
 /* #region footer */
 
-.portfolio-title{
-    text-transform: capitalize;
+.container{
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 .page-footer{
@@ -241,19 +258,24 @@ a{
 }
 
 .footer-text{
-    display: inline-block;
-    padding-bottom: 100px
-    max-width: 264px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
 
-.logo-span{
-    display: block;
-    padding: 100px o;
-   margin-bottom: 16px;
-        color: #f4f4fd;
+.footer-logo{
+    margin-bottom: 16px;
 }
+
+.logo-span{
+       color: #f4f4fd;
+}
+
+.footer-container{
+    display: inline-block;
+    padding: 100px o;  
+     max-width: 264px;  
+}
+
 /* #endregion footer 

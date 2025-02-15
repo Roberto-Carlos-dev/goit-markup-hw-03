@@ -132,11 +132,14 @@ button{
 
 .hero-container{
     display: block;
-   padding-top: 188px;
+  padding: 188px 0 188px;
 }
 
 .hero{
+  display: block;
+  padding: 188px 0 188px;
      background-color:  #2e2f42;
+
     }
 
 .hero-title{
@@ -166,8 +169,7 @@ button{
     border: none;
     border-radius: 4px;
     align-items: center;
-    padding-bottom: 188px;
-}
+    }
       
 .hero-button:hover, .hero-button:focus{
       background-color: #404bbf;
@@ -270,6 +272,11 @@ button{
 /* #endregion Our portfolio */
 
 /* #region footer */
+
+.footer{
+  display: block;
+  padding: 100px 0 100px;
+}
 
 .container{
     max-width: 1158px;

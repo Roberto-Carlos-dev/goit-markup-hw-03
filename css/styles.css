@@ -152,6 +152,7 @@ button{
     line-height: 1.07;
     letter-spacing: 0.02em;
      color: #fff;
+     margin-bottom: 48px;
 }
 
 .hero-button{
@@ -184,11 +185,7 @@ button{
   padding: 120px 0 120px;
 }
 
-.benefits-container{
- 
-}
-
-.benefits-list{
+ .benefits-list{
     display: flex;
     gap: 24px;
    }
@@ -269,7 +266,7 @@ button{
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin: 8px 0;
+    margin-bottom: 8px;
 }
 
 .our-team-text{

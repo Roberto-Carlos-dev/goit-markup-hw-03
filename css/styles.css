@@ -295,7 +295,30 @@ button{
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
+ 
+.portfolio{
+  display: inline-block;
+  padding: 120px 0 120px;
+ }
+
+ .portfolio-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 48px; 
+ }
+
+ .portfolio-info{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+ }
+
+ .portfolio-list-item{
+  width: calc((100% - 48px) / 3)
+ }
 
 .portfolio-servis {
     font-weight: 500;
@@ -303,6 +326,7 @@ button{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .servis-text {
     font-size: 16px;

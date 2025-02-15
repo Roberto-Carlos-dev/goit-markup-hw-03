@@ -179,7 +179,7 @@ button{
 
 .benefits-list{
     display: flex;
-    gab: 24px;
+    gap: 24px;
     width: calc((100% - 72) / 4);
 }
 

@@ -180,7 +180,7 @@ button{
 /* #region benefits */
 
 .benefits{
-  display: block;
+  display: flex;
   padding: 120px 0 120px;
 }
 
@@ -189,7 +189,7 @@ button{
 }
 
 .benefits-list{
-    display: block;
+    display: flex;
     gap: 24px;
    }
    .benefits-list-item{

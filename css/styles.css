@@ -184,11 +184,14 @@ button{
   padding: 120px 0 120px;
 }
 
+.benefits-container{
+  width: calc((100% - 72px) / 4);
+}
+
 .benefits-list{
     display: flex;
     gap: 24px;
-    flex-basis: calc((100% - 72px) / 4);
-}
+   }
 
 .benefits-item-title{
     display: flex;
